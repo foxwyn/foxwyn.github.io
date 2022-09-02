@@ -1,0 +1,33 @@
+body {
+  background-color: var(--body-background-color);
+  color:            var(--color-dark);
+  font-family:      var(--typo-font-family);
+  font-size:        var(--typo-font-size);
+  line-height:      var(--typo-line-height);
+  margin:           var(--body-margin);
+  padding:          var(--body-padding);
+}
+
+header,main,footer {
+  display:  var(--container-display);
+  margin:   var(--container-margin);
+  max-width: var(--container-max-width);
+  padding: var(--container-padding);
+}
+
+header,footer {
+  padding-top: 2rem;
+}
+
+small {
+  color: var(--color-faded);
+  font-size: calc(var(--typo-font-size) * 0.75)
+}
+
+p {
+  font-size:  var(--typo-p-size);
+}
+
+h1 {
+  font-size: var(--typo-h1-size);
+}

@@ -1,0 +1,27 @@
+:root {
+  /* Colors */
+  --color-white:          #fff;
+  --color-dark:           #000000cc;
+  --color-faded:          #22222255;
+  --color-clay:           #e3e4df;
+
+  /* Body */
+  --body-background-color:  var(--color-clay);
+  --body-margin:            0;
+  --body-padding:           0;
+
+  /* Typography */
+  --typo-font-color:        var(--color-dark, black);
+  --typo-font-family:       'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  --typo-font-size:         100%;
+  --typo-line-height:       1.618rem;
+  --typo-p-size:            1rem;
+  --typo-h1-padding:        2.75rem 0 1rem 0;
+  --typo-h1-size:           calc(var(--typo-p-size) * 2.75);
+  
+  /* Containers */
+  --container-display:      block;
+  --container-margin:       1rem auto 0.5rem auto;
+  --container-max-width:    48rem;
+  --container-padding:      0;
+}

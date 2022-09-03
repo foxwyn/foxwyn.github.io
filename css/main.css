@@ -15,6 +15,13 @@ header,main,footer {
   padding: var(--container-padding);
 }
 
+  /* Smaller than max */
+  @media screen and (max-width: 50rem) {
+    header,main,footer {
+      margin: var(--container-margin-sm);
+    }
+  }
+
 header,footer {
   padding-top: 2rem;
 }
